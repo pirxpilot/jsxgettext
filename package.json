@@ -43,8 +43,8 @@
   "bin": "lib/cli.js",
   "preferGlobal": true,
   "engineStrict": true,
-    "engines": {
-      "node": ">= 4.0.0"
+  "engines": {
+    "node": ">= 4.0.0"
   },
   "dependencies": {
     "acorn": "^3.0.0",
@@ -52,12 +52,12 @@
     "commander": "^2.9.0",
     "escape-string-regexp": "^1.0.4",
     "gettext-parser": "^1.1.2",
-    "jade": "^1.11.0"
+    "pug-lexer": "^3.0.0"
   },
   "devDependencies": {
+    "i18n-abide": "0.0.17",
     "jshint": "2.5.5",
-    "test": "0.6.0",
-    "i18n-abide": "0.0.17"
+    "test": "0.6.0"
   },
   "scripts": {
     "test": "node ./node_modules/jshint/bin/jshint . && node test"
