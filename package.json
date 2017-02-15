@@ -52,7 +52,8 @@
     "commander": "^2.9.0",
     "escape-string-regexp": "^1.0.4",
     "gettext-parser": "^1.1.2",
-    "pug-lexer": "^3.0.0"
+    "pug-lexer": "^3.0.0",
+    "pug-parser": "^2.0.2"
   },
   "devDependencies": {
     "i18n-abide": "0.0.17",
